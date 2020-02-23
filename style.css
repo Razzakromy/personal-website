@@ -3,3 +3,134 @@ body{
     margin: 0;
     font-family: 'Poppins';
 }
+section {
+	height: 500px;
+	padding-bottom: 250px;
+	padding-top: 55px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: roboto;
+}
+.header {
+	background-image: url(img/header-bg.png);
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	background-size: cover;
+}
+.half-area {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	padding-left: 5%;
+}
+.half-area h3 {
+	font-size: 30px;
+	font-weight: normal;
+}
+.half-area h1 {
+	color: #EC4C7A;
+	font-size: 55px;
+	margin-top: -30px;
+}
+.half-area p {
+	color: darkgray;
+	padding-bottom: 25px;
+}
+.half-area a {
+	text-decoration: none;
+	background-image: linear-gradient(90deg, #D33677, #EC4B75);
+	color: #fff;
+    border-radius: 5px;
+    width:120px;
+	padding: 9px 30px;
+    text-align: center;
+    transition: transform 0.5s ease-in 0.5s;
+    display: block;
+}
+
+.half-area a:hover {
+	background-image: linear-gradient(90deg, #EC4B75,#D33677);
+	transform: rotate(1440deg);
+}
+.half-area img {
+	width: 100%;
+}
+
+.biography{background-image: url(img/biography-bg.png); background-size: cover;}
+#special-area {
+	padding-top: 125px;
+	background-image: url(img/biography-bg.png);
+	margin-left: 13px;
+	text-align: justify;
+}
+.latest-work{background-image: url(img/latest-work-bg.png); background-repeat: no-repeat; background-size: cover;}
+.latest-work h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 45px;
+	padding: 45px 0px;
+}
+.latest-work img {
+	width: 28%;
+	padding-left: 2%;
+	margin-left: 2%;
+}
+footer {
+	background-image: url(img/footer-bg.png);
+	background-size: cover;
+	text-align: center;
+	margin-top: -213px;
+	padding-top: 208px;
+}
+.client{}
+.client h3 {
+	font-size: 40px;
+	margin-top: -71px;
+	font-weight: 500;
+	padding-bottom: 36px;
+}
+.client h5 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.client p {
+	font-size: 13px;
+	margin-top: -30px;
+	color: darkgray;
+	margin-bottom: 42px;
+}
+.say {
+	width: 35%;
+	margin-left: 32%;
+}
+.say p {
+	font-size: 15px;
+	padding-bottom: 50px;
+}
+footer p{}
+.message {
+	width: 389px;
+	background-image: linear-gradient(156deg, #5F5AF3, #6CE48E);
+	margin-left: 31%;
+	padding: 20px 55px;
+	border-radius: 0;
+	border: 11px solid;
+	border-image: linear-gradient(170deg, #6062ED, #6CE091);
+	border-image-slice: 1;
+	box-shadow: 12px 12px 13px rgb(0, 0, 0,0.4);
+}
+
+.message:hover {
+	box-shadow: -12px -12px 13px rgba(13, 5, 255, 0.4);
+}
+.message p {
+	margin: 0;
+	color: #fff;
+	font-size: 13px;
+}
+.main-footer {
+	font-size: 12px;
+	color: darkgreen;
+	padding-top: 130px;
+}
